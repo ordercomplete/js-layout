@@ -9,7 +9,7 @@ const header = createHeader()
 
 page.append(header)
 
-const title = createElement('h1', 'title', 'Мій блог')
+const title = createElement('h1', 'title', `Ком'юніті`)
 
 page.append(title)
 
@@ -28,12 +28,6 @@ const POST_LIST = [
     info: 'Ми хотіли щоб у цьому чаті було близько 150 людей щоб зробити якісний пак самопрезентацій.',
     date: '25.01',
     viewed: true,
-  },
-  {
-    category: [{ text: 'Важливо', id: 1 }],
-    info: 'До біса планувальник, наймаємо дизайнера і готуємося до презентації, як Джобс.',
-    date: '26.01',
-    viewed: false,
   },
 ]
 
